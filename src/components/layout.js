@@ -30,6 +30,10 @@ const Layout = ({ children }) => {
           margin: `0 auto`,
           maxWidth: `var(--size-content)`,
           padding: `var(--size-gutter)`,
+          minHeight: "100vh",
+          display: `flex`,
+          flexDirection: "column",
+          justifyContent: "space-between",
         }}
       >
         <main>{children}</main>
